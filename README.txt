@@ -2,7 +2,7 @@ This workflow uses STITCH to impute genotypes based on next gen sequencing data 
 
 1. create the necessary conda environment from impute.env.yml. (ie, 'conda env create --file impute.env.yml')
 2. update the config.yaml file if needed (this allows you to specify the reference genome and some parameters for STITCH). Usually nothing needs to be changed here.
-3. add imputation reference files used by STICH and indicate their location in the config.yaml file. The contents of this directory are as follows (in this case, the directory is named 'imputation_files':
+3. add imputation reference files used by STICH and indicate their location in the config.yaml file. The files can be obtaine from: https://mathgen.stats.ox.ac.uk/impute/1000GP_Phase3.html. The contents of this directory are as follows (in this case, the directory is named 'imputation_files':
 
 imputation_files/1000GP_Phase3.sample
 
